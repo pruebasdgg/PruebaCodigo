@@ -17,7 +17,7 @@ namespace GithubPruebas
             BuildWebHost(args).Run(); // Hola mundo
             //Y de nuevo otro comentario
         }
-
+//Y otra vez otro comentario pero esta vez desde sourcesafe
         public static IWebHost BuildWebHost(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>()
