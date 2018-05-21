@@ -14,7 +14,7 @@ namespace GithubPruebas
     {
         public static void Main(string[] args)
         {
-            BuildWebHost(args).Run();
+            BuildWebHost(args).Run(); // Hola mundo
         }
 
         public static IWebHost BuildWebHost(string[] args) =>
